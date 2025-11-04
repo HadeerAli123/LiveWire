@@ -169,6 +169,7 @@ option {
                                 <th>الإجراءات</th>
                             </tr>
                         </thead>
+                        
                     </table>
                     <!-- End Invoice List Table -->
                 </div>

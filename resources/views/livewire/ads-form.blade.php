@@ -112,6 +112,7 @@
 
         <div class="d-flex justify-content-center pt-3" style="padding-bottom: 10px;">
             <button type="submit" class="btn btn-primary ml-3">حفظ</button>
+            
             <button type="button" wire:click="$dispatch('close-modal')" class="btn btn-secondary">إلغاء</button>
         </div>
     </form>

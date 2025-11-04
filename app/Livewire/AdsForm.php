@@ -105,6 +105,7 @@ $ad->category()->sync($this->cats_ids);
         $this->resetExcept('company', 'cat_id');
         $this->dispatch('ad-created'); // لتحديث الجدول
         $this->dispatch('close-modal');
+        
     }
 
     public function render()
