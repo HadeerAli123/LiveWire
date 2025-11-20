@@ -71,13 +71,8 @@
                            <li class="d-none d-lg-flex">
                               <!-- Main Header Time -->
                               <div class="main-header-date-time text-right">
-                               <h3 class="time">
-  <span id="hours"></span>
-  <span id="point">:</span>
-  <span id="min"></span>
-</h3>
-                                 <span class="date"><span id="date">Tue, 12 October 2019</span></span>
-                              </div>
+
+@livewire('clock')                              </div>
                               <!-- End Main Header Time -->
                            </li>
                           
@@ -92,23 +87,3 @@
          <!-- End Main Header -->
       </header>
       <!-- End Header -->
-       <script>
-  function updateTime() {
-    const now = new Date();
-    let hours = now.getHours();
-    let minutes = now.getMinutes();
-
-    // نضيف صفر قبل الأرقام الأقل من 10
-    hours = hours < 10 ? "0" + hours : hours;
-    minutes = minutes < 10 ? "0" + minutes : minutes;
-
-    document.getElementById("hours").textContent = hours;
-    document.getElementById("min").textContent = minutes;
-  }
-
-  // أول ما الصفحة تفتح
-  updateTime();
-
-  // تحديث الوقت كل دقيقة
-  setInterval(updateTime, 1000);
-</script>

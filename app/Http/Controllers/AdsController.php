@@ -48,7 +48,7 @@ class AdsController extends Controller
      */
     public function store(StoreAdsRequest $request)
     {
-        $data = $this->repo->store($request);
+    $ad = $this->service->createAd($request->all());
         
         return redirect()->to('qr-code/generate/'.$data->id);
 

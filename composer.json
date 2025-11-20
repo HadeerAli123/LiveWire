@@ -10,6 +10,7 @@
         "endroid/qr-code": "^4.0",
         "laravel/framework": "^12.0",
         "laravel/sanctum": "*",
+        "laravel/telescope": "^5.15",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6",
         "maatwebsite/excel": "^3.1",
@@ -18,6 +19,7 @@
         "yajra/laravel-datatables-oracle": "^12.4"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.16",
         "fakerphp/faker": "^1.23",
         "laravel/breeze": "^2.3",
         "laravel/pail": "^1.2.2",
