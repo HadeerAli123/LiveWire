@@ -68,14 +68,13 @@ option {
   padding-right: 25px;
 }
 </style>
-
+@livewire('offline-component')
 <div class="row">
     <div class="col-12  ">
         <div class="card mb-30 radius-20">
             <div class="card-body pt-30">
-                <h6 class="font-15 "> الحملات الاعلانية</h6>
                       @livewire('ads-table')
-
+ 
                     <div id="projectAddModal" class="modal fade">
                         <div class="modal-dialog modal-dialog-centered modal-xl">
                             <div class="modal-content">
@@ -93,5 +92,8 @@ option {
                 </div>
             </div>
         </div>
+        <div class="mb-20">
+        @livewire('counter')
+    </div>
     </div>
 </div>

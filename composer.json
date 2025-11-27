@@ -8,6 +8,7 @@
     "require": {
         "php": "^8.2",
         "endroid/qr-code": "^4.0",
+        "guzzlehttp/guzzle": "^7.10",
         "laravel/framework": "^12.0",
         "laravel/sanctum": "*",
         "laravel/telescope": "^5.15",

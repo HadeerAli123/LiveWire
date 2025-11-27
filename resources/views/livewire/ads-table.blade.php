@@ -1,6 +1,9 @@
 <div>
     <h5 class="mb-3">الحملات الإعلانية</h5>
 
+<div class="mb-5">
+    @livewire('flash-component')
+</div>
     {{-- الفلاتر --}}
     <div class="row mb-3 align-items-center">
         <div class="col-md-3">

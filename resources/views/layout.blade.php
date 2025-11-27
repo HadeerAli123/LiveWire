@@ -34,9 +34,7 @@
                     @include($view)
                     
                     <!-- ✅ هنا استدعاء الكومبوننت -->
-                    <div>
-                        @livewire('counter')
-                    </div>
+                   
                 </div>
             </div>
         </div>
